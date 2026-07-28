@@ -205,38 +205,21 @@ a {
 
 .header-inner {
   display: flex;
-  min-height: 78px;
+  min-height: 120px;
   align-items: center;
   gap: 1.5rem;
 }
 
 .brand {
   display: flex;
-  min-width: 220px;
+  min-width: 96px;
   align-items: center;
-  gap: 0.75rem;
 }
 
 .brand-logo {
-  width: 48px;
-  height: 52px;
+  width: 96px;
+  height: 104px;
   object-fit: contain;
-}
-
-.brand span {
-  display: grid;
-}
-
-.brand strong {
-  color: var(--wish-navy);
-  font-family: "DM Serif Display", Georgia, serif;
-  font-size: 1.2rem;
-  line-height: 1.1;
-}
-
-.brand small {
-  color: var(--wish-muted);
-  font-size: 0.7rem;
 }
 
 .desktop-nav {
@@ -251,7 +234,7 @@ a {
   position: relative;
   padding-block: 1.75rem;
   color: var(--wish-muted);
-  font-size: 0.79rem;
+  font-size: 1rem;
   font-weight: 600;
   white-space: nowrap;
 }
@@ -309,7 +292,7 @@ a {
   min-height: 48px;
   padding: 0.7rem;
   border-radius: 8px;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   font-weight: 600;
 }
 
@@ -1377,7 +1360,7 @@ a {
   }
 
   .header-inner {
-    min-height: 70px;
+    min-height: 96px;
   }
 
   .brand {
@@ -1385,12 +1368,8 @@ a {
   }
 
   .brand-logo {
-    width: 42px;
-    height: 46px;
-  }
-
-  .brand small {
-    display: none;
+    width: 78px;
+    height: 84px;
   }
 
   .header-cta {

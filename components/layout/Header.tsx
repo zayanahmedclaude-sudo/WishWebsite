@@ -27,10 +27,6 @@ export function Header() {
             className="brand-logo"
             priority
           />
-          <span>
-            <strong>W.I.S.H.</strong>
-            <small>Women in Support and Help</small>
-          </span>
         </Link>
 
         <nav className="desktop-nav" aria-label="Primary">
